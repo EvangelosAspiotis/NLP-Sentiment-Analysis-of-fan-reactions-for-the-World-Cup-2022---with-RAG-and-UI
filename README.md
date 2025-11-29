@@ -1,2 +1,2 @@
-# NLP-Sentiment-Analysis-of-fan-reactions-for-the-World-Cup-2022-with-RAG-
+# NLP-Sentiment-Analysis-of-fan-reactions-for-the-World-Cup-2022---with-RAG-and-UI
  The goal of the project is to apply NLP techniques, analyze various trends and to get insights in order to see the fans' expressions, emotions, sentiment analysis and in general how the anticipation for the competition was. So the project is divided into several parts, such as the preprocessing techniques that applied, the supervised and unsupervised learning parts including the EDA , the implementation of RAG and the User Interface.
