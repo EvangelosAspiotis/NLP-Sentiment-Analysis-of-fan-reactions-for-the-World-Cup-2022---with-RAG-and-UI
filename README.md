@@ -1,0 +1,1 @@
+# NLP-Sentiment-Analysis-of-fan-reactions-for-the-World-Cup-2022-with-RAG-
