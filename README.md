@@ -1,7 +1,7 @@
 # NLP-Sentiment-Analysis-of-fan-reactions-for-the-World-Cup-2022---with-RAG-and-UI
  The goal of the project is to apply NLP techniques, analyze various trends and to get insights in order to see the fans' expressions, emotions, sentiment analysis and in general how the anticipation for the competition was. So the project is divided into several parts, such as the preprocessing techniques that applied, the supervised and unsupervised learning parts including the EDA , the implementation of RAG and the User Interface.
 
-
+The system takes raw tweets and processes them through several stages:
 
  1. Data Collection & Preprocessing
 
@@ -19,7 +19,7 @@ Lemmatization or stemming
 Hashtag and emoji sentiment handling
 These steps prepare the text for reliable analysis.
 
-🔹 2. Sentiment Analysis
+2. Sentiment Analysis
 
 The cleaned tweets are analyzed using a sentiment classifier to determine whether reactions are:
 
@@ -31,7 +31,7 @@ Neutral
 
 The model is applied to the full dataset to understand general fan mood and reaction patterns throughout the tournament.
 
-🔹 3. Retrieval-Augmented Generation (RAG)
+3. Retrieval-Augmented Generation (RAG)
 
 To enrich the experience, the project includes a RAG system that allows users to ask questions about:
 
@@ -45,7 +45,7 @@ Specific match events
 
 The RAG pipeline retrieves relevant tweets or summaries and then uses an LLM to produce context-aware answers.
 
-🔹 4. Interactive UI
+4. Interactive UI
 
 A lightweight UI lets users:
 
@@ -61,7 +61,7 @@ Interact with the RAG system in real time
 
 It turns the project into an intuitive tool rather than just a script.
 
-🔹 5. Insights & Interpretation
+5. Insights & Interpretation
 
 The system provides:
 
@@ -72,3 +72,7 @@ Trend insights before/after key matches
 Context-aware generated explanations via RAG
 
 A combined view of raw data + AI reasoning
+
+
+The RAG code and the working live chatbot are linked below:
+https://github.com/devkorki/world-cup-2022-chatbot
